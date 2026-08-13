@@ -44,45 +44,11 @@ Most repositories here are private. Public repositories, where they exist, are d
 
 ---
 
-## Engineering
-
-### Stack
-
-**Front-end** — React · Astro · Vite · WordPress + Elementor Pro · TypeScript · WebGL (Three.js, GLSL)
-
-**Edge & infrastructure** — Cloudflare Pages · Workers · KV · WAF · self-hosted services on VPS via Coolify
-
-**Data & backend** — Supabase (Postgres, RLS) · Airtable · Google Sheets
-
-**Automation & lifecycle** — Zapier · Calendly · SuiteDash · Mailgun · Mailchimp
-
-**Analytics & search** — GA4 · Google Search Console · Semrush
-
-### Principles
-
-- **Fail closed.** Security-relevant paths default to denial, not to best-effort. Row-level security and access rules are treated as part of the schema, not as an afterthought.
-- **Independent paths over chained dependencies.** Automation branches run in parallel where possible so that one failure does not silently take down a sequence.
-- **Attribution integrity is a first-class concern.** Tracking parameters, campaign tagging, and analytics configuration are reviewed as carefully as application code, because attribution damage is not retroactively fixable.
-- **Document the constraint, not just the fix.** Platform limitations are recorded alongside the workaround so the next engineer inherits the reasoning.
-- **Edge-first delivery.** Static and client-rendered surfaces are served from the edge and routed under a single origin for consistent caching, security, and analytics.
-
-### Conventions
-
-- Trunk-based development with short-lived feature branches.
-- One logical change per commit; migrations are committed separately from application code.
-- Conventional Commits for commit messages.
-- Pull requests require review before merge. Infrastructure and schema changes require review from the owning engineer.
-- Secrets live in environment configuration or the platform secret store — never in the repository, never in client bundles.
-
----
-
 ## Working with us
 
 **Clients** — Start with a [free consultation](https://assistworld.com/getting-started) to scope the role, hours, and specialisation you need.
 
 **Assistants** — We hire and train continuously. Applications are handled through our careers process on the main site.
-
-**Engineers** — We work with a small, senior team across web, automation, and internal tooling. If that overlaps with what you do, get in touch.
 
 ---
 
