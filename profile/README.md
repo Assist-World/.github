@@ -6,7 +6,7 @@
 
 We match companies with trained, long-term virtual assistants — and we build the software that makes that matching fast, accountable, and measurable.
 
-[Website](https://assistworld.com) · [Services](https://assistworld.com/services) · [Success Stories](https://assistworld.com/success-stories) · [Book a Consultation](https://assistworld.com/free-consultation)
+[Website](https://assistworld.com) · [Services](https://assistworld.com/services-by-industries) · [Success Stories](https://assistworld.com/success-stories) · [Book a Consultation](https://assistworld.com/getting-started)
 
 </div>
 
@@ -88,8 +88,8 @@ Most repositories here are private. Public repositories, where they exist, are d
 
 ## Contact
 
-- **General** — hello@assistworld.com <!-- confirm before publishing -->
-- **Security** — Please report suspected vulnerabilities privately to security@assistworld.com rather than opening a public issue. <!-- confirm this inbox exists -->
+- **General** — support@assistworld.com
+- **Security** — Please report suspected vulnerabilities privately to support@assistworld.com rather than opening a public issue.
 - **Web** — [assistworld.com](https://assistworld.com)
 
 ---
