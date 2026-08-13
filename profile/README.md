@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Replace with the hosted brand asset, e.g. https://assistworld.com/assets/logo-mark.svg -->
-<img src="./assets/assistworld-logo.svg" alt="AssistWorld" width="180">
-
 # AssistWorld
 
 **Vetted virtual assistants for growing businesses.**
